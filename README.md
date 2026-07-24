@@ -16,6 +16,23 @@ A command-line movie theater ticket booking system implemented in C with a modul
 - Screen clearing after each command for clean interface
 
 ## Compilation
-Compile all `.c` files together:
-```bash
-gcc -o booking main.c member1_data.c member2_display.c member3_booking.c member4_cancel_search.c member5_revenue.c
+clone the repository to the testing folder
+
+git clone https://github.com/hasangihaz/Movie-Ticket-Booking-System.git
+cd Movie-Ticket-Booking-System
+
+compiling
+gcc *.c -o movie_booking
+or
+gcc main.c member1_data.c member2_display.c member3_booking.c member4_cancel.c member5_revenue.c -o movie_booking
+
+Run the program
+windows
+ movie_booking.exe
+bash
+ ./movie_booking
+
+//Compile all .c files together:
+
+//gcc -o booking main.c member1_data.c member2_display.c member3_booking.c member4_cancel_search.c member5_revenue.c
+
