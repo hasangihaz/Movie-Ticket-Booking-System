@@ -19,16 +19,21 @@ A command-line movie theater ticket booking system implemented in C with a modul
 clone the repository to the testing folder
 
 git clone https://github.com/hasangihaz/Movie-Ticket-Booking-System.git
+
 cd Movie-Ticket-Booking-System
 
 compiling
 gcc *.c -o movie_booking
+
 or
+
 gcc main.c member1_data.c member2_display.c member3_booking.c member4_cancel.c member5_revenue.c -o movie_booking
 
 Run the program
+
 windows
  movie_booking.exe
+ 
 bash
  ./movie_booking
 
