@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "member5_revenue.h"
-
+#include "member1_data.h" 
 
 void viewRevenueReport() {
     printf("\n========== REVENUE REPORT ==========\n");
