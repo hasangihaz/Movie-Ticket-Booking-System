@@ -23,6 +23,7 @@ git clone https://github.com/hasangihaz/Movie-Ticket-Booking-System.git
 cd Movie-Ticket-Booking-System
 
 compiling
+
 gcc *.c -o movie_booking
 
 or
@@ -32,9 +33,11 @@ gcc main.c member1_data.c member2_display.c member3_booking.c member4_cancel.c m
 Run the program
 
 windows
+
  movie_booking.exe
  
 bash
+
  ./movie_booking
 
 //Compile all .c files together:
